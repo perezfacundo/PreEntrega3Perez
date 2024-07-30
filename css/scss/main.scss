@@ -44,19 +44,19 @@ html {
 
 body {
     width: 100%;
-    
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     background: var(--color-background);
     user-select: none;
     // overflow: hidden;
     color: var(--color-dark);
+
 }
 
 .container {
     display: grid;
     width: 96%;
-    margin: 0 auto;
+    margin: 0;
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
 }
@@ -139,6 +139,7 @@ aside {
         align-items: center;
         justify-content: space-between;
         margin-top: 1.4rem;
+        margin-left: 1.4rem;
     }
 
     .logo {
@@ -560,7 +561,7 @@ main {
         }
 
         .recent-orders {
-            width: 94%;
+            width: 100%;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
