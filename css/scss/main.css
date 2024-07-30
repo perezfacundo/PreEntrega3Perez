@@ -46,7 +46,6 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  overflow: hidden;
   color: var(--color-dark);
 }
 
@@ -576,4 +575,8 @@ main .recent-orders a {
   .right .top button span {
     font-size: 2rem;
   }
+}
+.scrollable-container {
+  overflow-y: auto; /* Habilita el scroll vertical */
+  height: 300px; /* Establece una altura fija para el contenedor */
 }/*# sourceMappingURL=main.css.map */

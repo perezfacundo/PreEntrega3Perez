@@ -48,7 +48,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-background);
     user-select: none;
-    overflow: hidden;
+    // overflow: hidden;
     color: var(--color-dark);
 }
 
@@ -696,3 +696,8 @@ main {
         }
     }
 }
+
+.scrollable-container {
+    overflow-y: auto; /* Habilita el scroll vertical */
+    height: 300px; /* Establece una altura fija para el contenedor */
+  }
